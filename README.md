@@ -86,25 +86,26 @@ The following libraries compose the Sidub Platform. Packages are distributed on 
 
 ## Release State, Terms and Information
 
-| Library | License | Release | Library Type |
+| Library | License | Release | Links |
 | --- | --- | --- | --- |
-| **Localization** | AGPLv3 / proprietary | Public | Functional |
-| **Filter** | AGPLv3 / proprietary | Public | Functional |
-| **Core** | AGPLv3 / proprietary | Public | Functional |
-| **NumberSequence** | AGPLv3 / proprietary | Public | Functional |
-| **Cryptography** | Private | Functional | Complete; pending public release |
-| **Cryptography.AzureKeyVault** | Private | Supporting | Complete; pending public release |
-| **Authentication** | Private | Functional | Complete; pending public release |
-| **Authentication.Credentials.Azure** | Private | Supporting | Complete; pending public release |
-| **Authentication.Gremlin** | Private | Supporting | Complete; pending public release |
-| **Authentication.Http** | Private | Supporting | Complete; pending public release |
-| **Authentication.IsolatedFunction** | Private | Functional | Complete; pending public release |
-| **Authentication.SignalR** | Private | Supporting | Complete; pending public release |
-| **Authorization** | Private | Functional | Future release (in progress) |
-| **Authorization.IsolatedFunction** | Private | Functional | Complete; pending public release |
-| **Storage** | AGPLv3 / proprietary | Private | Functional | Complete; pending public release |
-| **Storage.Gremlin** | AGPLv3 / proprietary | Private | Supporting | Complete; pending public release |
-| **Storage.Http** | AGPLv3 / proprietary | Private | Supporting | Complete; pending public release |
+| **Localization** | AGPLv3 / proprietary | Public | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Localization) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Localization) |
+| **Filter** | AGPLv3 / proprietary | Public | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Filter) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Filter) |
+| **Core** | AGPLv3 / proprietary | Public | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Core) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Core) |
+| **NumberSequence** | AGPLv3 / proprietary | Public | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.NumberSequence) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.NumberSequence) |
+| **Cryptography** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Cryptography) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Cryptography) |
+| **Cryptography.AzureKeyVault** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Cryptography.AzureKeyVault) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Cryptography.AzureKeyVault) |
+| **Authentication** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Authentication) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Authentication) |
+| **Authentication.Credentials.Azure** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Authentication.Credentials.Azure) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Authentication.Credentials.Azure) |
+| **Authentication.Gremlin** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Authentication.Gremlin) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Authentication.Gremlin) |
+| **Authentication.Http** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Authentication.Http) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Authentication.Http) |
+| **Authentication.IsolatedFunction** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Authentication.IsolatedFunction) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Authentication.IsolatedFunction) |
+| **Authentication.SignalR** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Authentication.SignalR) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Authentication.SignalR) |
+| **Authorization** | Private | Future release (in progress) | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Authorization) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Authorization) |
+| **Authorization.IsolatedFunction** | Private | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Authorization.IsolatedFunction) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Authorization.IsolatedFunction) |
+| **Storage** | AGPLv3 / proprietary | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Storage) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Storage) |
+| **Storage.Gremlin** | AGPLv3 / proprietary | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Storage.Gremlin) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Storage.Gremlin) |
+| **Storage.Http** | AGPLv3 / proprietary | Complete; pending public release | [GitHub](https://github.com/sidubsolutions/Sidub.Platform.Storage.Http) • [NuGet](https://www.nuget.org/packages/Sidub.Platform.Storage.Http) |
+
 
 ## Dependencies
 
