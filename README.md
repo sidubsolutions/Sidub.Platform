@@ -129,28 +129,28 @@ Certain libraries within the platform have interdependencies; a chart has been i
 
 ```mermaid
 graph TD;
-    Localization --> Core
-    NumberSequence --> Core
-    Core --> Cryptography
-    Cryptography --> Cryptography.AzureKeyVault
-    Core --> Filter
-    Core --> Storage
-    Core --> Authorization
+    Core --> Localization
+    Core --> NumberSequence
+    Cryptography --> Core
+    Cryptography.AzureKeyVault --> Cryptography
+    Filter --> Core
+    Storage --> Core
+    Authorization --> Core
     
-    Storage --> Authentication
-    Authentication --> Authentication.Credentials.Azure
-    Authentication --> Authentication.Gremlin
-    Authentication --> Authentication.Http
-    Authentication --> Authentication.SignalR
+    Authentication --> Storage
+    Authentication.Credentials.Azure --> Authentication
+    Authentication.Gremlin --> Authentication
+    Authentication.Http --> Authentication
+    Authentication.SignalR --> Authentication
     
-    Storage --> Storage.Gremlin
-    Storage --> Storage.Http
+    Storage.Gremlin --> Storage
+    Storage.Http --> Storage
     
-    Authentication.IsolatedFunction --> Authentication
-    Authorization.IsolatedFunction --> Authorization
+    Authentication --> Authentication.IsolatedFunction
+    Authorization --> Authorization.IsolatedFunction
     
-    Authorization --> Storage
     Storage --> Authorization
-    Authorization --> Authentication
+    Authorization --> Storage
     Authentication --> Authorization
+    Authorization --> Authentication
 ```
