@@ -69,19 +69,22 @@ Introducing **Sidub Platform**, a comprehensive collection of software libraries
 
 The following libraries compose the Sidub Platform. Packages are distributed on NuGet.org, and source code is available on GitHub.com for open-source licensed projects. Licensing terms are available in each library’s public repository or project page.
 
-| Library | Description | License Dependencies |
-| --- | --- | --- |
-| **Localization** | Provides localization support to allow adaptation of software for various languages and cultures. | MIT, DotNet Library License |
-| **Filter** | Provides ability to define filters/queries which may be parsed to various query languages. | MIT, DotNet Library License |
-| **Core** | Defines core platform concepts (entities, relationships, etc.) and provides a variety of functionality for interacting with core concepts. | Sidub Platform, Metalama License, MIT, DotNet Library License |
-| **NumberSequence** | Provides concepts to allow the definition of identifiers using various number sequence concepts. Allows developers to generate and maintain structured identifiers to apply against records easily. | Sidub Platform, MIT, DotNet Library License |
-| **Cryptography.AzureKeyVault** | Provides cryptographic functionality to allow developers to encrypt/decrypt, sign/verify data, and perform other cryptographic functions against data and entities. | Sidub Platform, MIT, DotNet Library License |
-| **Authentication.Credentials.Azure** | Provides authentication concepts and abstractions used to perform authentication throughout the platform; enables authentication against data sources and services. | Sidub Platform, MIT, DotNet Library License |
-| **Authentication.Gremlin** | Provides specific authentication implementations against various connection or service types. | Sidub Platform, MIT, DotNet Library License, Apache 2.0 |
+| Library | Description |
+| --- | --- |
+| **Localization** | Provides localization support to allow adaptation of software for various languages and cultures. |
+| **Filter** | Provides ability to define filters/queries which may be parsed to various query languages. |
+| **Core** | Defines core platform concepts (entities, relationships, etc.) and provides a variety of functionality for interacting with core concepts. |
+| **NumberSequence** | Provides concepts to allow the definition of identifiers using various number sequence concepts. Allows developers to generate and maintain structured identifiers to apply against records easily. |
+| **Cryptography**<br>**Cryptography.AzureKeyVault** | Provides cryptographic functionality to allow developers to encrypt/decrypt, sign/verify data, and perform other cryptographic functions against data and entities. |
+| **Authentication**<br>**Authentication.Credentials.Azure** | Provides authentication concepts and abstractions used to perform authentication throughout the platform; enables authentication against data sources and services. |
+| **Authentication.Gremlin**<br>**Authentication.Http**<br>**Authentication.IsolatedFunction**<br>**Authentication.SignalR** | Provides specific authentication implementations against various connection or service types. |
+| **Authorization**<br>**Authorization.IsolatedFunction** | Provides authorization concepts and abstractions used to perform authorization throughout the platform; enables authorization against data sources and services. |
+| **Storage** | Provides data connectivity concepts and abstractions used to connect and communicate with various service and system types. |
+| **Storage.Gremlin**<br>**Storage.Http** | Provides specific connectivity implementations against various service and system types. |
 
 > **Note:** License dependencies are not cumulative; see package dependencies.
 
-## Release State Terms and Information
+## Release State, Terms and Information
 
 | Library | License | Release | Library Type |
 | --- | --- | --- | --- |
@@ -102,7 +105,6 @@ The following libraries compose the Sidub Platform. Packages are distributed on 
 | **Storage** | AGPLv3 / proprietary | Private | Functional | Complete; pending public release |
 | **Storage.Gremlin** | AGPLv3 / proprietary | Private | Supporting | Complete; pending public release |
 | **Storage.Http** | AGPLv3 / proprietary | Private | Supporting | Complete; pending public release |
-| **Storage.MySql** | AGPLv3 / proprietary | Private | Supporting | Future release (license conflict) |
 
 ## Dependencies
 
