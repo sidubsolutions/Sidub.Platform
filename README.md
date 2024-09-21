@@ -152,9 +152,4 @@ graph TD;
     
     Authentication --> Authentication.IsolatedFunction
     Authorization --> Authorization.IsolatedFunction
-    
-    Storage --> Authorization
-    Authorization --> Storage
-    Authentication --> Authorization
-    Authorization --> Authentication
 ```
