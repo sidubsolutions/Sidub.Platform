@@ -133,7 +133,7 @@ Certain libraries within the platform have interdependencies; a chart has been i
 ```mermaid
 graph TD;
     Core --> Localization
-    Core --> NumberSequence
+    Core <-- NumberSequence
     Cryptography --> Core
     Cryptography.AzureKeyVault --> Cryptography
     Filter --> Core
