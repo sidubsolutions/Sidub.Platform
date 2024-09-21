@@ -136,6 +136,7 @@ graph TD;
     NumberSequence --> Core
     Cryptography --> Core
     Cryptography.AzureKeyVault --> Cryptography
+    Cryptography.AzureKeyVault --> Storage.Http
     Filter --> Core
     Storage --> Core
     Authorization --> Core
