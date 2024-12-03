@@ -82,8 +82,6 @@ The following libraries compose the Sidub Platform. Packages are distributed on 
 | **Storage** | Provides data connectivity concepts and abstractions used to connect and communicate with various service and system types. |
 | **Storage.Gremlin**<br>**Storage.Http** | Provides specific connectivity implementations against various service and system types. |
 
-> **Note:** License dependencies are not cumulative; see package dependencies.
-
 ## Release State, Terms and Information
 
 | Library | License | Release | Links |
